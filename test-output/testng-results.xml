@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-07T10:08:45 IST" name="Default suite" finished-at="2023-06-07T10:11:01 IST" duration-ms="136374">
+    <groups>
+    </groups>
+    <test started-at="2023-06-07T10:08:45 IST" name="Default test" finished-at="2023-06-07T10:11:01 IST" duration-ms="136374">
+      <class name="TestCase.VerifyCreatePage">
+        <test-method is-config="true" signature="createObjectGN()[pri:0, instance:TestCase.VerifyCreatePage@515aebb0]" started-at="2023-06-07T10:08:45 IST" name="createObjectGN" finished-at="2023-06-07T10:08:45 IST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObjectGN -->
+        <test-method is-config="true" signature="loginVtiger(java.lang.reflect.Method)[pri:0, instance:TestCase.VerifyCreatePage@515aebb0]" started-at="2023-06-07T10:08:45 IST" name="loginVtiger" finished-at="2023-06-07T10:09:48 IST" duration-ms="62684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCase.VerifyCreatePage.createInvoice()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginVtiger -->
+        <test-method signature="createInvoice()[pri:0, instance:TestCase.VerifyCreatePage@515aebb0]" started-at="2023-06-07T10:09:48 IST" name="createInvoice" finished-at="2023-06-07T10:10:25 IST" duration-ms="36800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createInvoice -->
+        <test-method is-config="true" signature="logOutPage(org.testng.ITestResult)[pri:0, instance:TestCase.VerifyCreatePage@515aebb0]" started-at="2023-06-07T10:10:25 IST" name="logOutPage" finished-at="2023-06-07T10:10:30 IST" duration-ms="5093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createInvoice status=SUCCESS method=VerifyCreatePage.createInvoice()[pri:0, instance:TestCase.VerifyCreatePage@515aebb0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutPage -->
+        <test-method is-config="true" signature="loginVtiger(java.lang.reflect.Method)[pri:0, instance:TestCase.VerifyCreatePage@515aebb0]" started-at="2023-06-07T10:10:30 IST" name="loginVtiger" finished-at="2023-06-07T10:10:35 IST" duration-ms="5468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCase.VerifyCreatePage.createLeads()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginVtiger -->
+        <test-method signature="createLeads()[pri:0, instance:TestCase.VerifyCreatePage@515aebb0]" started-at="2023-06-07T10:10:35 IST" name="createLeads" finished-at="2023-06-07T10:10:58 IST" duration-ms="23021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeads -->
+        <test-method is-config="true" signature="logOutPage(org.testng.ITestResult)[pri:0, instance:TestCase.VerifyCreatePage@515aebb0]" started-at="2023-06-07T10:10:59 IST" name="logOutPage" finished-at="2023-06-07T10:11:01 IST" duration-ms="2746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createLeads status=SUCCESS method=VerifyCreatePage.createLeads()[pri:0, instance:TestCase.VerifyCreatePage@515aebb0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutPage -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:TestCase.VerifyCreatePage@515aebb0]" started-at="2023-06-07T10:11:01 IST" name="flush" finished-at="2023-06-07T10:11:01 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- TestCase.VerifyCreatePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
